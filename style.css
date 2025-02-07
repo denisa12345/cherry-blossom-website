@@ -1,0 +1,131 @@
+body {
+  margin: 55px auto;
+  background-color: hsl(249, 6%, 91%);
+  font-family: "Zen Maru Gothic", sans-serif;
+  color: #485169;
+  min-width: 200px;
+  max-width: 1102px;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+}
+h1 {
+  margin: 40px;
+}
+
+h2 {
+  position: relative;
+  top: 10px;
+}
+p {
+  margin: 30px auto;
+  line-height: 25px;
+}
+h2,
+p {
+  padding: 1px 30px;
+}
+
+hr,
+.list {
+  margin: 0px 30px;
+}
+
+figure {
+  margin: 50px auto 44px auto;
+}
+img {
+  /*to center an image:*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 70%;
+  max-width: 550px;
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    width: 95%;
+  }
+}
+
+img.oshima {
+  width: 250px;
+  max-width: 250px;
+  border-radius: 10px;
+}
+figcaption {
+  text-align: center;
+  max-width: 500px;
+  margin: 0px auto;
+}
+
+.list {
+  background: rgba(217, 169, 187, 0.5);
+  padding: 0px 5px 0px 25px;
+  border-radius: 10px;
+  /*to make it fixed size*/
+  width: 250px;
+  max-width: 270px;
+  display: inline-block;
+}
+ul {
+  margin: 15px 0px 25px 0px;
+  padding: 0px 0px 0px 22px;
+  font-size: 17.5px;
+}
+.plist {
+  margin: 23px 0px 0px 0px;
+  padding: 0px;
+  font-size: 19px;
+}
+a {
+  color: #a05d76;
+}
+a:hover {
+  color: #d57ca5;
+}
+
+table {
+  width: 100%;
+  max-width: 500px;
+  margin: 40px 30px;
+  border-collapse: collapse;
+}
+
+table,
+td,
+th,
+caption {
+  border: 1px solid #aa98a6;
+  color: #485169;
+}
+
+th {
+  background-color: #666;
+}
+
+td {
+  text-align: center;
+  padding: 0px 17px;
+  font-size: 16.5px;
+}
+
+tr:nth-child(even) {
+  background-color: #d1becd;
+}
+
+caption {
+  padding: 2px;
+  background-color: #aa98a6;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+hr {
+  border: 1px solid #485169;
+}
+footer {
+  text-align: center;
+  font-size: 15px;
+}
